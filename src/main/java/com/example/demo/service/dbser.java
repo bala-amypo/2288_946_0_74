@@ -1,10 +1,11 @@
-package com.example.demo.serveice;
+package com.example.demo.service;
 
-import org.springframework.stereotype.Service;
+import java.util.List;
 
-@Service
-public class dataservice {
-    public String MethodN() {
-        return "Pragathish Sakthivel";
-    }
+import com.example.demo.entity.dben;
+
+public interface dbser {
+
+    dben saveEntity(dben dn);
+    List<dben> getdata();
 }

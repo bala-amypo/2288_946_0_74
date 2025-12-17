@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.Repository.dbrep;
 import com.example.demo.entity.dben;
-import com.example.demo.serveice.dbser;
+import com.example.demo.service.dbser;
 
 @Service
 public class dbserimp implements dbser{
