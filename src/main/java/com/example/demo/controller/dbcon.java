@@ -28,5 +28,4 @@ public class dbcon {
         return ds.getdata();
     }
     
-    
 }
