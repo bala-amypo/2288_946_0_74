@@ -1,11 +1,11 @@
-package com.example.demo.serveice.implementation;
+package com.example.demo.service.implementation;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Repository.dbrep;
+import com.example.demo.repository.dbrep;
 import com.example.demo.entity.dben;
 import com.example.demo.service.dbser;
 
